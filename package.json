@@ -1,0 +1,22 @@
+{
+  "name": "pajamas-components",
+  "version": "1.0.0",
+  "description": "Basic implementation of the Empty State component from Pajamas Design System.",
+  "main": "src/main.js",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "unit": "jest --config test/unit/jest.conf.js --coverage",
+    "test": "npm run unit",
+    "lint": "eslint --ext .js,.vue src test/unit",
+    "build": "node build/build.js"
+  },
+  "dependencies": {
+    "@gitlab/svgs": "1.161.0",
+    "@gitlab/ui": "20.8.0",
+    "pikaday": "1.8.0",
+    "vue": "2.6.12"
+  },
+  "keywords": []
+}
